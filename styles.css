@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: white;
+
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#bold {
+	font-weight: bold;
+	display: inline;
+	margin: 0;
+	padding: 5px;
+}
+#navbar {
+	font-weight: bold;
+	padding-left: 20px;
+}
+.navbar-nav .nav-item {
+	padding: 0 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.hero-content {
+	width: 50vw;
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 250px;
+	margin-left: 600px;
+	position: static;
+}
+
+img {
+	float: left;
+	object-fit: cover;
+	width: 30%;
+	margin: 1.66%;
+	height: 500px;
+}
+
+.btn {
+	position: fixed;
+	font-weight: bold;
+}
+
+/* h2 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+	border-bottom: 2px solid white;
+	padding-bottom: 1px;
+} */
+
+img[alt~="hero-img"] {
+	position: absolute;
+	top: 42%;
+	left: 10%;
+	height: 200px;
+	width: 300px;
+}
+
+.projects {
+	padding-top: 700px;
+}
+.workhead {
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 1px;
+	overflow:hidden;
+}
+
+.card1 {
+	position: relative;
+	width: 24rem;
+	height: 28rem;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	background-image: url("proj1.png");
+	background-clip: content-box;
+	border-radius: 10px;
+	border: 1px solid rgb(54, 54, 54);
+	background-position: center center;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.22) 8px 15px 12px,
+		rgba(0, 0, 8, 0.3) 0px 19px 38px;
+	float: left;
+	width: 25%;
+	margin: 4%;
+
+}
+
+
+
+.card2 {
+	position: relative;
+	width: 24rem;
+	height: 28rem;
+	background-size: cover;
+	background-position: center; 
+	background-color: black;
+	background-image: url("proj2.jpg");
+	background-clip: content-box;
+	border-radius: 10px;
+	border: 1px solid rgb(54, 54, 54);
+	background-position: center center;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.22) 8px 15px 12px,
+		rgba(0, 0, 8, 0.3) 0px 19px 38px;
+	float: left;
+	width: 25%;
+	margin: 4%;
+
+}
+
+.card3 {
+	position: relative;
+	width: 24rem;
+	height: 28rem;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	background-image: url("proj1.png");
+	background-clip: content-box;
+	border-radius: 10px;
+	border: 1px solid rgb(54, 54, 54);
+	background-position: center center;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.22) 8px 15px 12px,
+		rgba(0, 0, 8, 0.3) 0px 19px 38px;
+	float: left;
+	width: 25%;
+	margin: 4%;
+
+}
+
+.card__inner {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0;
+	padding: 2rem 1.3rem 2rem 2rem;
+	transition: all 0.4s ease 0s;
+}
+
+.card1:hover .card__inner {
+	opacity: 1;
+}
+
+.card2:hover .card__inner {
+	opacity: 1;
+}
+
+.card3:hover .card__inner {
+	opacity: 1;
+}
+
+
+.card__inner p {
+	overflow-y: scroll;
+	height: 87%;
+	padding-right: 1rem;
+	margin-top: 1.5rem;
+}
+
+::-webkit-scrollbar {
+	width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 50px;
+}
+.button {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  
+  .button1 {
+	background-color: black; 
+	color: white; 
+	border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .button2 {
+	background-color: black; 
+	color: white;  
+	border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+	background-color: #008CBA;
+	color: white;
+  }
+  
