@@ -10,7 +10,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Sayeed's portfolio</title>
-  <link rel="icon" href="http://www.pngmart.com/files/7/Red-Smoke-Transparent-Images-PNG.png" type="image/x-icon">
+  <link rel="icon" href=" type=" image/x-icon">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
@@ -26,7 +26,6 @@
   <!-- <div class="image-cont">
     <img src="img/undraw_photo_session_clqr.png" alt="hero-img">
   </div> -->
-
   <section id="hero">
     <div id="container">
       <div id="navbar">
@@ -39,16 +38,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link disabled " href="#">Home <span class="sr-only ">(current)</span></a>
+                <a class="nav-link nav-link-ltr  " href="#">Home <span class="sr-only ">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="works.html">Works</a>
+                <a class="nav-link nav-link-ltr" href="#work-content">Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link nav-link-ltr" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link nav-link-ltr" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -57,13 +56,27 @@
       <div class="hero-content">
 
 
-        <p>Hello My Name is <span id=bold>Sayeed,</span><br>and i am a<span id=bold> fullstack web developer</span>
+        <p>Hello, My Name is <span id=bold>Sayeed</span><br>and i am a<span id=bold> fullstack web developer</span>
         </p>
         <!-- <a href="works.html" class="btn btn-dark btn-lg active viewproj" role="button" aria-pressed="true">view
           projects</a> -->
-        <button type="button">VIEW PROJECTS</button>
+        <button type="button" id="viewbtn">VIEW PROJECTS</button>
       </div>
-
+      <div class="logohead">
+        i am familiar with,
+      </div>
+      <div class="familiarprogs">
+        <img class="proglogo" src="svg logos/html.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/css.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/javascript.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/nodejs.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/mongodb.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/php_white.png" alt="" srcset="">
+        <img class="proglogo" src="svg logos/mysql.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/bootstrap.svg" alt="" srcset="">
+        <img class="proglogo" src="svg logos/jquery_white.png" alt="" srcset="">
+        <img class="proglogo" src="svg logos/python.png" alt="" srcset="">
+      </div>
     </div>
     </div>
   </section>
@@ -75,11 +88,10 @@
         </div>
 
 
-        <div class="card1">
+        <div class="card card1">
           <div class="card__inner">
             <h2>STUDENT DATABASE MANAGEMENT SYSTEM</h2>
-            <P>it is a simple web application to store,view,edit and delete student's information.I designe it using
-              html/css,javaScript,nodejs,express js,mongodb,bootstrap,jquery.<br>
+            <P>it is a simple web application to store,view,edit and delete student's information.<br>
               <a class="button button1" href="https://github.com/SAYEED05/student-db-mgmt-web-app">VIEW CODE</a>
               <a class="button button2" href="https://students-db-mgmt-web-app.herokuapp.com/">LIVE VERSION</a>
             </P>
@@ -87,30 +99,56 @@
           </div>
         </div>
 
-        <div class="card2">
+        <div class="card card2">
           <div class="card__inner">
             <h2>KEYTAP</h2>
             <P>this a clone of patatap website with a basic interactive background.I designed it with basic html/css and
-              javaScript.i used javaScript library like
-              paper js for animation and howler js for audio.<br>
+              javaScript.<br>
               <a class="button button1" href="https://github.com/SAYEED05/KeyTap-patatap-clone-">VIEW CODE</a>
               <a class="button button2" href="https://sayeed05.github.io/KeyTap-patatap-clone-/">LIVE VERSION</a></P>
           </div>
         </div>
 
-        <div class="card3">
+        <div class="card card3">
           <div class="card__inner">
-            <h2>PROJECT 1</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet quas molestiae alias unde ipsam ipsum
-              totam praesentium ducimus architecto?.<br>
-              <a class="button button1" href="">VIEW CODE</a>
-              <a class="button button2" href="">LIVE VERSION</a>
+            <h2>Simple Billing WebApp</h2>
+            <P>it is a simple billing web app which is created using php,javascript,bootstrap,jQuery and mysql for
+              database.<br>
+              <a class="button button1" href="https://github.com/SAYEED05/simple_billing_webapp">VIEW CODE</a>
+              <a class="button button2" href="https://github.com/SAYEED05/simple_billing_webapp">LIVE VERSION</a>
             </P>
           </div>
         </div>
+        <div class="card card4">
+          <div class="card__inner">
+            <h2>Simple TO-DO WebApp</h2>
+            <P>this is a simple todo web app using basic HTML/CSS and javaScript.I took icons from fontawesome.com and
+              background gradient from uigradients.com<br>
+              <a class="button button1" href="https://github.com/SAYEED05/Simple-TO-DO-Web-App">VIEW CODE</a>
+              <a class="button button2" href="https://sayeed05.github.io/Simple-TO-DO-Web-App/">LIVE VERSION</a>
+            </P>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
+  <section id="contact">
+    <div class="container2">
+      <div class="social">
+        <a href="https://www.instagram.com/sayeed_zh/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/sayeed-ali-a47314192/"><i class="fab fa-linkedin"
+            aria-hidden="true"></i></a>
+      </div>
+      <div class="social">
+        <a href="https://github.com/SAYEED05"><i class="fab fa-github" aria-hidden="true"></i></a>
+      </div>
+      <img id="profile" src="img/profile.jpeg" alt="">
+    </div>
+  </section>
+
 
 
   <!--[if lt IE 7]>
@@ -120,6 +158,7 @@
   </h1>
 
   <script src="script.js" async defer></script>
+  <script async src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 
 </html>
