@@ -311,7 +311,6 @@ color: var(--theme-color);
   }
 
   .proglogo {
-
 	  object-fit: cover;
 	  width: 5%;
 	  height: 5%;
@@ -333,3 +332,20 @@ justify-content: center;
 	overflow:hidden;
   }
 
+  /* .proglogo  {
+      filter: gray; 
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .3s ease-in-out;  
+    }
+
+    .proglogo:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    } */
+  .proglogo{
+	transition: transform .2s;
+  }
+	.proglogo:hover {
+		transform: scale(1.5); 
+	  }
