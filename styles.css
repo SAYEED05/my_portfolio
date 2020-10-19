@@ -90,8 +90,8 @@ img[alt~="hero-img"] {
 
 .card{
 	position: relative;
-	width: 24rem;
-	height: 28rem;
+	width: 300px;
+	height: 300px;
 	background-size: cover;
 	background-position: center;
 	background-color: black;
@@ -110,13 +110,13 @@ img[alt~="hero-img"] {
 
 
 .card1 {
-	background-image: url("img/proj1.png");
+	background-image: url("img/sdbm.png");
 }
 .card2 {
-	background-image: url("img/proj2.jpg");
+	background-image: url("img/keytap.png");
 }
 .card3 {
-	background-image: url("img/proj1.png");
+	background-image: url("img/billing.png");
 }
 .card4 {
 	background-image: url("img/todo.png");
@@ -160,7 +160,7 @@ img[alt~="hero-img"] {
 	padding: 16px 10px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	font-size: 16px;
 	margin: 4px 2px;
 	transition-duration: 0.4s;
@@ -199,17 +199,17 @@ img[alt~="hero-img"] {
 :root {
 	--theme-color: rgba(107, 107, 107, 0.7);
 }
-body,#contact {
+body,#aboutme {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
 }
 
-#contact {
+#aboutme {
 padding-top: 100px;
 }
 
-#contact,
+#aboutme,
 .container2,
 .social {
 	display: flex;
@@ -349,3 +349,44 @@ justify-content: center;
 	.proglogo:hover {
 		transform: scale(1.5); 
 	  }
+
+.about	{
+	font-family: 'Piazzolla', serif;
+	text-align: center;
+	justify-content: center;
+	font-style: italic;
+	font-weight: 100;
+	float: left;
+	
+}
+
+.abouthead {
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+	padding: 200px 0px;
+	overflow:hidden;
+}
+
+
+#totopbtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+#totopbtn:hover {
+	background-color: gray;
+}

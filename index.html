@@ -14,10 +14,13 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,400;1,100&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/regular.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"></script>
+  <script src="bootstrap.js"></script>
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -44,7 +47,7 @@
                 <a class="nav-link nav-link-ltr" href="#work-content">Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-ltr" href="#">About</a>
+                <a class="nav-link nav-link-ltr" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-ltr" href="#">Contact</a>
@@ -90,8 +93,8 @@
 
         <div class="card card1">
           <div class="card__inner">
-            <h2>STUDENT DATABASE MANAGEMENT SYSTEM</h2>
-            <P>it is a simple web application to store,view,edit and delete student's information.<br>
+            <h2>DATABASE MANAGEMENT SYSTEM</h2>
+            <P><br>
               <a class="button button1" href="https://github.com/SAYEED05/student-db-mgmt-web-app">VIEW CODE</a>
               <a class="button button2" href="https://students-db-mgmt-web-app.herokuapp.com/">LIVE VERSION</a>
             </P>
@@ -102,8 +105,7 @@
         <div class="card card2">
           <div class="card__inner">
             <h2>KEYTAP</h2>
-            <P>this a clone of patatap website with a basic interactive background.I designed it with basic html/css and
-              javaScript.<br>
+            <P><br>
               <a class="button button1" href="https://github.com/SAYEED05/KeyTap-patatap-clone-">VIEW CODE</a>
               <a class="button button2" href="https://sayeed05.github.io/KeyTap-patatap-clone-/">LIVE VERSION</a></P>
           </div>
@@ -112,8 +114,7 @@
         <div class="card card3">
           <div class="card__inner">
             <h2>Simple Billing WebApp</h2>
-            <P>it is a simple billing web app which is created using php,javascript,bootstrap,jQuery and mysql for
-              database.<br>
+            <P><br>
               <a class="button button1" href="https://github.com/SAYEED05/simple_billing_webapp">VIEW CODE</a>
               <a class="button button2" href="https://github.com/SAYEED05/simple_billing_webapp">LIVE VERSION</a>
             </P>
@@ -122,8 +123,7 @@
         <div class="card card4">
           <div class="card__inner">
             <h2>Simple TO-DO WebApp</h2>
-            <P>this is a simple todo web app using basic HTML/CSS and javaScript.I took icons from fontawesome.com and
-              background gradient from uigradients.com<br>
+            <P><br>
               <a class="button button1" href="https://github.com/SAYEED05/Simple-TO-DO-Web-App">VIEW CODE</a>
               <a class="button button2" href="https://sayeed05.github.io/Simple-TO-DO-Web-App/">LIVE VERSION</a>
             </P>
@@ -133,7 +133,8 @@
       </div>
     </div>
   </section>
-  <section id="contact">
+  <section id="aboutme">
+    <div class="abouthead">ABOUT ME</div>
     <div class="container2">
       <div class="social">
         <a href="https://www.instagram.com/sayeed_zh/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
@@ -147,10 +148,18 @@
       </div>
       <img id="profile" src="img/profile.jpeg" alt="">
     </div>
+    <div id="about" class="about">
+      <p>hi again !,i am an engineering graduate fresh out of college. <br>
+        Although I do not have Work experience,I am confident that<br> I can compensate that with Hard Work and
+        passion.<br>
+        If you are intrested in hiring me, feel free to contact me. <br>
+        P.S: Hover over image for external links.
+      </p>
+    </div>
   </section>
 
 
-
+  <button onclick="topfunction()" id="totopbtn" title="to top"><i class="fas fa-arrow-up"></i></button>
   <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
