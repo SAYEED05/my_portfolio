@@ -46,8 +46,8 @@ body {
 	text-transform: uppercase;
 	font-size: 50px;
 	font-weight: 400;
-	margin-top: 250px;
-	margin-left: 600px;
+	margin-top: 33.33vh;
+	margin-left: 28.0625vw;
 	position: static;
 }
 
@@ -74,7 +74,7 @@ img[alt~="hero-img"] {
 }
 
 .projects {
-	padding-top: 300px;
+	padding-top: 40vh;
 }
 .workhead {
 	font-size: 50px;
@@ -191,7 +191,7 @@ img[alt~="hero-img"] {
   
 #viewbtn {
 	font-weight: bold;
-	padding: 0 15px;
+	padding: 0 2vh;
 }
 
 /* PROFILE SOCIAL MEDIA SECTION */
@@ -206,7 +206,7 @@ body,#aboutme {
 }
 
 #aboutme {
-padding-top: 100px;
+padding-top: 13.33vh;
 }
 
 #aboutme,
@@ -318,18 +318,21 @@ color: var(--theme-color);
   }
 
   .familiarprogs{
-justify-content: center;
+	justify-content: center;
+	margin-top: 67vh;
+	margin-bottom: 225px;
+
   }
 
   .logohead {
-	padding-top: 130px;
+	padding-top: 17.33vh;
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 7vh;
 	padding-bottom: 1px;
-	overflow:hidden;
+
   }
 
   /* .proglogo  {
@@ -365,9 +368,9 @@ justify-content: center;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 50px;
-	padding: 200px 0px;
-	overflow:hidden;
+	margin-top: 155px;
+	padding-bottom: 100px;
+
 }
 
 
@@ -389,4 +392,9 @@ justify-content: center;
 
 #totopbtn:hover {
 	background-color: gray;
+}
+
+#small-text {
+	font-size: 15pt;
+	
 }
