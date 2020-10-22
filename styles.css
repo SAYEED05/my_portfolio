@@ -10,8 +10,8 @@ html {
   }
 
 body {
-	
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Red Rose', cursive;
+	/* font-family: 'Open Sans Condensed', sans-serif; */
 	font-size: 24px;
 	font-weight: 300;
 	color: white;
@@ -45,7 +45,7 @@ body {
 	color: white;
 	text-transform: uppercase;
 	font-size: 50px;
-	font-weight: 400;
+	font-weight: 300;
 	margin-top: 33.33vh;
 	margin-left: 28.0625vw;
 	position: static;
@@ -58,12 +58,6 @@ img {
 	margin: 1.66%;
 	height: 500px;
 }
-
-.btn {
-	position: fixed;
-	font-weight: bold;
-}
-
 
 img[alt~="hero-img"] {
 	position: absolute;
@@ -78,7 +72,7 @@ img[alt~="hero-img"] {
 }
 .workhead {
 	font-size: 50px;
-	font-weight: bold;
+	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 50px;
@@ -190,7 +184,7 @@ img[alt~="hero-img"] {
   }
   
 #viewbtn {
-	font-weight: bold;
+	font-weight: 400;
 	padding: 0 2vh;
 }
 
@@ -202,11 +196,7 @@ img[alt~="hero-img"] {
 body,#aboutme {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
-}
-
-#aboutme {
-padding-top: 13.33vh;
+	height: 100%;
 }
 
 #aboutme,
@@ -327,7 +317,7 @@ color: var(--theme-color);
   .logohead {
 	padding-top: 17.33vh;
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 7vh;
@@ -361,14 +351,15 @@ color: var(--theme-color);
 	font-weight: 100;
 	float: left;
 	
+	
 }
 
 .abouthead {
 	font-size: 50px;
-	font-weight: bold;
+	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 155px;
+	margin-top: 105px;
 	padding-bottom: 100px;
 
 }
@@ -398,3 +389,46 @@ color: var(--theme-color);
 	font-size: 15pt;
 	
 }
+
+#contact-me {
+	width: 100%;
+	height: 100%;
+	
+}
+
+/* CONTACT SECTION */
+
+#contact-head {
+	font-size: 50px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+	padding-bottom: 2.66vh;
+
+}
+
+#contactform-head {
+	padding-bottom: 10px;
+	font-weight: 300;
+	border-bottom: 2px solid white;
+}
+
+#contact-form {
+	margin: 0 auto;
+	border: 1px solid white;
+	padding: 50px;
+	width: 40%;
+	height: 40%;
+	margin-bottom: 20px;
+}
+
+
+
+#aboutme,#contact-me {
+	width: 100;
+	height: 100;
+}
+
+
+/* @media(min-width:800px) { */

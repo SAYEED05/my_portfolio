@@ -13,22 +13,23 @@
   <link rel="icon" href=" type=" image/x-icon">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,400;1,100&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/regular.min.css">
+  <!--   js files -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"></script>
   <script src="bootstrap.js"></script>
+  <!--   font files -->
+  <!--   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,400;1,100&display=swap"
+    rel="stylesheet">
+  <!--     css files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/regular.min.css">
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!-- <div class="image-cont">
-    <img src="img/undraw_photo_session_clqr.png" alt="hero-img">
-  </div> -->
   <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <a class="navbar-brand" href="#">SAYEED'S PORTFOLIO</a>
@@ -45,10 +46,10 @@
             <a class="nav-link nav-link-ltr" href="#work-content">Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-ltr" href="#about">About</a>
+            <a class="nav-link nav-link-ltr" href="#aboutme">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-ltr" href="#">Contact</a>
+            <a class="nav-link nav-link-ltr" href="#contactform-head">Contact</a>
           </li>
         </ul>
       </div>
@@ -62,8 +63,6 @@
 
         <p>Hello, My Name is <span id=bold>Sayeed</span><br>and i am a<span id=bold> fullstack web developer</span>
         </p>
-        <!-- <a href="works.html" class="btn btn-dark btn-lg active viewproj" role="button" aria-pressed="true">view
-          projects</a> -->
         <button type="button" id="viewbtn">VIEW PROJECTS</button>
       </div>
     </div>
@@ -158,6 +157,34 @@
         If you are intrested in hiring me, feel free to contact me. <br>
         <span id="small-text">P.S: Hover over image for external links.</span>
       </p>
+    </div>
+  </section>
+
+  <section id="contact-me">
+    <div id="contact-head">CONTACT</div>
+    <div id="contact-form">
+      <div id="contactform-head">CONTACT ME</div>
+      <form action="POST">
+        <div class="form-group">
+          <label for="">Name</label>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+          <label for="">Email Address</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="Enter Your Email ID">
+        </div>
+
+        <div class="form-group">
+          <label for="">Subject</label>
+          <input type="text" name="Subject" class="form-control" id="Subject" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <label for="">Message</label>
+          <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary formsub">SUBMIT</button>
+      </form>
+
     </div>
   </section>
 
