@@ -431,4 +431,70 @@ color: var(--theme-color);
 }
 
 
-/* @media(min-width:800px) { */
+ @media(max-width:960px) { 
+	.card{
+		width: 40%;
+			margin: 5%;
+		}
+
+	.proglogo {
+
+		width: 10%;
+	  height: 10%;
+	  margin: 5%;
+	}
+
+	#contact-form {
+		padding: 20px;
+		width: 60%;
+		height: 45%;
+	}
+
+	.hero-content {
+		padding-top: 30vh;
+		width: 80vw;
+		height: 50vh;
+		font-size: 30px;
+		margin: 5%;
+		position: static;
+	}
+}
+
+ @media(max-width:490px) { 
+	.card{
+		width: 80%;
+		margin: 10%;
+			
+		}
+	
+	.proglogo {
+
+			width: 25%;
+	  height: 25%;
+	  margin: 10%;
+		}
+
+	#contact-form {
+			padding: 20px;
+			width: 70%;
+			height: 50%;
+		}
+
+	.hero-content {
+			padding-top: 20vh;
+			width: 80vw;
+			font-size: 30px;
+			margin: 10%;
+			position: static;
+		}
+
+		.about	{
+			font-size: 17px;
+			padding: 4px;
+			text-align:none;
+		}
+	}
+
+	
+
+	
