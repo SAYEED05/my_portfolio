@@ -431,6 +431,48 @@ color: var(--theme-color);
 }
 
 
+/* .hero-content{
+	 -moz-animation: fadein 5s; 
+	 -webkit-animation: fadein 5s; 
+	 -o-animation: fadein 5s; 
+ }
+ @keyframes fadein {
+	 from {
+		 opacity:0;
+	 }
+	 to {
+		 opacity:1;
+	 }
+ }
+ @-moz-keyframes fadein { 
+	 from {
+		 opacity:0;
+	 }
+	 to {
+		 opacity:1;
+	 }
+ }
+ @-webkit-keyframes fadein {
+	 from {
+		 opacity:0;
+	 }
+	 to {
+		 opacity:1;
+	 }
+ }
+ @-o-keyframes fadein { 
+	 from {
+		 opacity:0;
+	 }
+	 to {
+		 opacity: 1;
+	 }
+ }
+	
+ */
+	
+
+
  @media(max-width:960px) { 
 	.card{
 		width: 40%;
@@ -506,6 +548,3 @@ color: var(--theme-color);
 			
 		}
 	 }
-	
-
-	
