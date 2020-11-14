@@ -17,7 +17,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"></script>
-  <script src="bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
+    integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
+    crossorigin="anonymous"></script>
+  <script src="bootstrap.min.js"></script>
   <!--   font files -->
   <!--   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
@@ -25,7 +31,7 @@
     rel="stylesheet">
   <!--     css files -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/regular.min.css">
-  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -55,7 +61,7 @@
       </div>
     </nav>
   </div>
-
+  <progress max="100" value="0"></progress>
   <section id="hero">
     <div class="container">
       <div class="hero-content">
@@ -63,7 +69,7 @@
 
         <p>Hello, My Name is <span id=bold>Sayeed</span><br>and i am a<span id=bold> fullstack web developer</span>
         </p>
-        <button type="button" id="viewbtn">VIEW PROJECTS</button>
+        <!-- <button type="button" id="viewbtn">VIEW PROJECTS</button> -->
       </div>
     </div>
     </div>
@@ -78,21 +84,25 @@
 
         <div class="card card1">
           <div class="card__inner">
-            <h2>Database Management System</h2>
+            <h2>Student Info Management System</h2>
             <P><br>
-              <a class="button button1" href="https://github.com/SAYEED05/student-db-mgmt-web-app">VIEW DETAILS</a>
-              <a class="button button2" href="https://students-db-mgmt-web-app.herokuapp.com/">LIVE VERSION</a>
+              <a class="button button1" href="https://github.com/SAYEED05/student-db-mgmt-web-app" target="_blank">VIEW
+                DETAILS</a>
+              <a class="button button2" href="https://students-db-mgmt-web-app.herokuapp.com/" target="_blank">LIVE
+                VERSION</a>
             </P>
 
           </div>
         </div>
-
+        target="_blank"
         <div class="card card2">
           <div class="card__inner">
             <h2>KeyTap</h2>
             <P><br>
-              <a class="button button1" href="https://github.com/SAYEED05/KeyTap-patatap-clone-">VIEW DETAILS</a>
-              <a class="button button2" href="https://sayeed05.github.io/KeyTap-patatap-clone-/">LIVE VERSION</a></P>
+              <a class="button button1" href="https://github.com/SAYEED05/KeyTap-patatap-clone-" target="_blank">VIEW
+                DETAILS</a>
+              <a class="button button2" href="https://sayeed05.github.io/KeyTap-patatap-clone-/" target="_blank">LIVE
+                VERSION</a></P>
           </div>
         </div>
 
@@ -100,8 +110,10 @@
           <div class="card__inner">
             <h2>Simple Billing WebApp</h2>
             <P><br>
-              <a class="button button1" href="https://github.com/SAYEED05/simple_billing_webapp">VIEW DETAILS</a>
-              <a class="button button2" href="https://github.com/SAYEED05/simple_billing_webapp">LIVE VERSION</a>
+              <a class="button button1" href="https://github.com/SAYEED05/simple_billing_webapp" target="_blank">VIEW
+                DETAILS</a>
+              <a class="button button2" href="https://github.com/SAYEED05/simple_billing_webapp" target="_blank">LIVE
+                VERSION</a>
             </P>
           </div>
         </div>
@@ -109,8 +121,10 @@
           <div class="card__inner">
             <h2>Simple TO-DO WebApp</h2>
             <P><br>
-              <a class="button button1" href="https://github.com/SAYEED05/Simple-TO-DO-Web-App">VIEW DETAILS</a>
-              <a class="button button2" href="https://sayeed05.github.io/Simple-TO-DO-Web-App/">LIVE VERSION</a>
+              <a class="button button1" href="https://github.com/SAYEED05/Simple-TO-DO-Web-App" target="_blank">VIEW
+                DETAILS</a>
+              <a class="button button2" href="https://sayeed05.github.io/Simple-TO-DO-Web-App/" target="_blank">LIVE
+                VERSION</a>
             </P>
           </div>
         </div>
@@ -118,9 +132,11 @@
           <div class="card__inner">
             <h2>Image Search Pixabay API</h2>
             <P><br>
-              <a class="button button1" href="https://github.com/SAYEED05/image-gallary_reactjs-pixabay_api">VIEW
+              <a class="button button1" href="https://github.com/SAYEED05/image-gallary_reactjs-pixabay_api"
+                target="_blank">VIEW
                 DETAILS</a>
-              <a class="button button2" href="https://sayeed05.github.io/image-gallary_reactjs-pixabay_api/">LIVE
+              <a class="button button2" href="https://sayeed05.github.io/image-gallary_reactjs-pixabay_api/"
+                target="_blank">LIVE
                 VERSION</a>
             </P>
           </div>
@@ -129,9 +145,20 @@
           <div class="card__inner">
             <h2>Expense Tracker</h2>
             <P><br>
-              <a class="button button1" href="https://github.com/SAYEED05/expense-tracker">VIEW
+              <a class="button button1" href="https://github.com/SAYEED05/expense-tracker" target="_blank">VIEW
                 DETAILS</a>
-              <a class="button button2" href="https://sayeed05.github.io/expense-tracker/">LIVE
+              <a class="button button2" href="https://sayeed05.github.io/expense-tracker/" target="_blank">LIVE
+                VERSION</a>
+            </P>
+          </div>
+        </div>
+        <div class="card card7">
+          <div class="card__inner">
+            <h2>Random Quotes Generator</h2>
+            <P><br>
+              <a class="button button1" href="https://github.com/SAYEED05/random_quotes.github.io" target="_blank">VIEW
+                DETAILS</a>
+              <a class="button button2" href="https://sayeed05.github.io/random_quotes.github.io/" target="_blank">LIVE
                 VERSION</a>
             </P>
           </div>

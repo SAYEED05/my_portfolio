@@ -22,3 +22,17 @@ function topfunction() {
     document.documentElement.scrollTop = 0;
 
 }
+
+gsap.from('.hero-content', {
+    opacity: 0,
+    x: -500,
+    duration: 2,
+
+});
+//Progress bar
+gsap.registerPlugin(ScrollTrigger);
+gsap.to('progress', {
+    value: 100,
+    ease: 'none',
+    scrollTrigger: { scrub: 0.3 }
+});

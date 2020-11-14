@@ -37,6 +37,7 @@ body {
 	padding: 0 30px;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 20px;
 }
 
 /* HERO SECTION */
@@ -122,6 +123,9 @@ img[alt~="hero-img"] {
 .card6 {
 	background-image: url("img/expenseTracker.png");
 }
+.card7 {
+	background-image: url("img/RandomQuotes.png");
+}
 .card__inner {
 	font-size: 5pt;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -143,7 +147,7 @@ img[alt~="hero-img"] {
 
 .card__inner p {
 	font-size: 5pt;
-	overflow-y: scroll;
+
 	height: 87%;
 	padding-right: 0.6rem;
 	margin-top: 0.8rem;
@@ -350,10 +354,11 @@ color: var(--theme-color);
       -webkit-transform: scale(1.01);
     } */
   .proglogo{
-	transition: transform .2s;
+	transition: transform .8s;
   }
 	.proglogo:hover {
-		transform: scale(1.5); 
+		/* transform: scale(1.5);  */
+		transform: rotate(360deg);
 	  }
 
 .about	{
@@ -667,3 +672,29 @@ ul {
 .copyright-text p a{
   color: #ff5e14;
 }
+
+/* Progress bar */
+
+progress {
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 10px;
+	border: none;
+	background: transparent;
+	z-index: 10;
+  }
+  progress::-webkit-progress-bar {
+	background: transparent;
+  }
+  progress::-webkit-progress-value {
+	background: linear-gradient(to left, #db38b5,#01b3e3,#25ce7b,#fdc741,#ff6b01,#fc4236);
+	background-attachment: fixed;
+  }
+  progress::-moz-progress-bar {
+	background: linear-gradient(to left, #db38b5,#01b3e3,#25ce7b,#fdc741,#ff6b01,#fc4236);
+	background-attachment: fixed;
+  }
