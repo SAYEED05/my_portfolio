@@ -524,6 +524,14 @@ i {
     margin: 5%;
     position: static;
   }
+
+  .cursor {
+    display: none;
+  }
+
+  body {
+    cursor: default;
+  }
 }
 
 @media (max-width: 490px) {
@@ -557,6 +565,14 @@ i {
     padding: 4px;
     text-align: none;
   }
+
+  .cursor {
+    display: none;
+  }
+
+  body {
+    cursor: default;
+  }
 }
 
 @media (max-width: 595px) {
@@ -567,6 +583,14 @@ i {
 
   #small-text {
     font-size: 10pt;
+  }
+
+  .cursor {
+    display: none;
+  }
+
+  body {
+    cursor: default;
   }
 }
 
