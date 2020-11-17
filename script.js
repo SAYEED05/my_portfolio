@@ -1,11 +1,11 @@
-$("#viewbtn").click(function () {
+/* $("#viewbtn").click(function () {
     $('html,body').animate({
         scrollTop: $("#work-content").offset().top
     },
         'slow');
-});
+}); */
 
-
+//TO THE TOP BUTTON
 totopbtn = document.getElementById("totopbtn");
 window.onscroll = function () { scrollfunction() };
 function scrollfunction() {
@@ -23,16 +23,55 @@ function topfunction() {
 
 }
 
+//HERO CONTENT ANIMATION
 gsap.from('.hero-content', {
     opacity: 0,
     x: -500,
-    duration: 2,
+    duration: 1,
 
 });
-//Progress bar
+
+//PROGRESSS BAR
 gsap.registerPlugin(ScrollTrigger);
 gsap.to('progress', {
     value: 100,
     ease: 'none',
     scrollTrigger: { scrub: 0.3 }
 });
+
+//CURSOR
+const cursor = document.querySelector('.cursor');
+const navLinks = document.querySelectorAll('.navbar-nav');
+const navbar = document.querySelectorAll('.navbar-brand');
+/* const text=$('.hero-content p').text();
+console.log(text) */
+window.addEventListener('mousemove', func)
+function func(e) {
+    cursor.style.top = e.pageY + 'px';
+    cursor.style.left = e.pageX + 'px';
+    console.log(e.pageX)
+    console.log(e.pageY)
+}
+
+navLinks.forEach(link => {
+    link.addEventListener('mouseover', () => {
+        cursor.classList.add('cursor-hover');
+        cursor.classList.add('link-hovertext');
+    });
+    link.addEventListener('mouseout', () => {
+        cursor.classList.remove('cursor-hover');
+        cursor.classList.remove('link-hovertext');
+    });
+});
+
+navbar.forEach(link => {
+    link.addEventListener('mouseover', () => {
+        cursor.classList.add('cursor-hover');
+        cursor.classList.add('link-hovertext');
+    });
+    link.addEventListener('mouseout', () => {
+        cursor.classList.remove('cursor-hover');
+        cursor.classList.remove('link-hovertext');
+    });
+});
+
