@@ -43,14 +43,15 @@ gsap.to('progress', {
 const cursor = document.querySelector('.cursor');
 const navLinks = document.querySelectorAll('.navbar-nav');
 const navbar = document.querySelectorAll('.navbar-brand');
+const boldtext = document.querySelectorAll('.change');
+
 /* const text=$('.hero-content p').text();
 console.log(text) */
 window.addEventListener('mousemove', func)
 function func(e) {
     cursor.style.top = e.pageY + 'px';
     cursor.style.left = e.pageX + 'px';
-    console.log(e.pageX)
-    console.log(e.pageY)
+
 }
 
 navLinks.forEach(link => {
@@ -65,6 +66,18 @@ navLinks.forEach(link => {
 });
 
 navbar.forEach(link => {
+    link.addEventListener('mouseover', () => {
+        cursor.classList.add('cursor-hover');
+        cursor.classList.add('link-hovertext');
+    });
+    link.addEventListener('mouseout', () => {
+        cursor.classList.remove('cursor-hover');
+        cursor.classList.remove('link-hovertext');
+    });
+});
+
+
+boldtext.forEach(link => {
     link.addEventListener('mouseover', () => {
         cursor.classList.add('cursor-hover');
         cursor.classList.add('link-hovertext');

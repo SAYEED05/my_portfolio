@@ -47,15 +47,16 @@ body {
 }
 
 .link-hovertext {
-  color: rgb(27, 27, 27);
+  color: rgb(27, 27, 27) !important;
 }
 
 .nav-link:hover,
-.navbar-brand:hover {
+.navbar-brand:hover,.change:hover {
   color: rgb(21, 21, 21) !important;
+  transition: .2s ease-in;
 }
 
-#bold {
+.bold {
   font-weight: bold;
   display: inline;
   margin: 0;
@@ -146,6 +147,9 @@ img {
 }
 .card7 {
   background-image: url("img/RandomQuotes.png");
+}
+.card8 {
+  background-image: url("img/weatherApp.png");
 }
 .card__inner {
   font-size: 5pt;
