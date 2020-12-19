@@ -51,9 +51,10 @@ body {
 }
 
 .nav-link:hover,
-.navbar-brand:hover,.change:hover {
+.navbar-brand:hover,
+.change:hover {
   color: rgb(21, 21, 21) !important;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .bold {
@@ -150,6 +151,9 @@ img {
 }
 .card8 {
   background-image: url("img/weatherApp.png");
+}
+.card9 {
+  background-image: url("img/ecommerce.png");
 }
 .card__inner {
   font-size: 5pt;
