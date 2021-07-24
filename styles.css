@@ -35,7 +35,7 @@ body {
   position: absolute;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  z-index: 100;
+  /*   z-index: 100; */
   transition: all 0.3s ease;
   transition-property: background, transform;
   transform-origin: 100% 100%;
@@ -617,7 +617,7 @@ ul {
 .footer-section {
   background: #151414;
   position: relative;
-  cursor: none;
+  cursor: default;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
