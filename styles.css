@@ -130,6 +130,7 @@ img {
 
 .card1 {
   background-image: url("img/sdbm.png");
+  object-fit: contain;
 }
 .card2 {
   background-image: url("img/keytap.png");
@@ -157,6 +158,10 @@ img {
 }
 .card10 {
   background-image: url("img/footprint.png");
+  object-fit: cover;
+}
+.card11 {
+  background-image: url("img/movieSearch.png");
   object-fit: cover;
 }
 .card__inner {
